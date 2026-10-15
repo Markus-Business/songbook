@@ -1,5 +1,5 @@
 // Offline cache for the Songbuch app. Bump VERSION when files change.
-const VERSION = 'songbuch-v4';
+const VERSION = 'songbuch-v5';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
